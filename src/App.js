@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavComp from './Components/NarBar/navBar';
 import FooterComp from './Components/footer';
-import LoginComp from './Components/login';
+import LoginComp from './Components/Login/login';
 import CourseListComp from './Components/courseList';
 import CourseComp from './Components/Course/course';
 
