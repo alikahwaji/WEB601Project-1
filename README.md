@@ -16,6 +16,8 @@ Whangarae Bees website is a working progress
 
 ### Built With
 * [React](https://create-react-app.dev/)
+* [CSS](https://reactjs.org/docs/faq-styling.html)
+* [html](https://reactjs.org/tutorial/tutorial.html)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -50,7 +52,7 @@ npm start
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Corrina-Busby/WEB602WhangaraeBees/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Corrina-Busby/WEB601Project/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) for a list of proposed features (and known issues).
 
 
 <!-- LICENSE -->
