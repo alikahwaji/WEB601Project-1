@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavComp from './Components/NarBar/navBar';
-import FooterComp from './Components/footer';
-import LoginComp from './Components/Login/login';
+import FooterComp from './Components/Footer/footer';
+import LoginComp from './Components/LoginForm/loginForm';
 import CourseListComp from './Components/courseList';
 import CourseComp from './Components/Course/course';
-
+import ContactComp from './Components/Contact/contact';
 
 function Index() {
   return (
@@ -14,12 +14,10 @@ function Index() {
       <main style={{marginTop: '64px'}}>
       <h2>Home</h2>
       <p>Apiculture New Zealand</p>
-      </main>
-     
+      </main>     
       
       <img alt="Bee img" src=" "/>
       <FooterComp />
-
     </div>
   );
 }
@@ -29,17 +27,6 @@ function About() {
     <div>
       <NavComp />
       <h2>About</h2>
-      <FooterComp />
-
-    </div>
-  );
-}
-
-function Tours() {
-  return (
-    <div>
-      <NavComp />
-      <h2>Tours</h2>
       <FooterComp />
 
     </div>
@@ -60,26 +47,36 @@ function LoginForm() {
 function Courses() {
   return(
     <div>
-        <NavComp />
-      <h2>Courses</h2>
-    
+      <NavComp />
+      <h2>Courses</h2>    
       <CourseListComp />
       <FooterComp />
 
     </div>
   );
 }
+
+function Contact() {
+  return (
+    <div>
+      <NavComp />
+      <h2>Contact</h2>
+      <FooterComp />
+
+    </div>
+  );
+}
+
 function AppRouter() {
   return (
     <Router>
-      <div>
-        
+      <div>       
 
         <Route path="/" exact component={Index} />
-        <Route path="/about/" component={About} />
-        <Route path="/tours/" component={Tours} />
+        <Route path="/about/" component={About} />      
         <Route path="/form/" component={LoginForm} />
         <Route path="/courselist/" component={Courses} />
+        <Route path="/contact/" component={Contact} />
         
       </div>
     </Router>

@@ -16,10 +16,7 @@ const navbar = props => (
             </li>
             <li>
               <Link to="/about/">About</Link>
-            </li>
-            <li>
-              <Link to="/users/">Tours</Link>
-            </li>
+            </li>            
             <li>
               <Link to="/courselist/">Courses</Link>
             </li>
