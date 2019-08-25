@@ -1,0 +1,40 @@
+.navBar {
+   position: fixed;
+   top: 0;
+   left: 0; 
+   width:100%;
+   background: pink; 
+   height: 90px;
+}
+
+.navBar_navigation{
+   display: flex;
+   height: 100%;
+   align-items: center;
+   padding: 0 1.5rem;
+}
+
+.navBar_nav-items :hover,
+.navBar_nav-items :active{
+   color: #fa923f;
+}
+
+.navBar_logo {
+   color: white;
+   text-decoration: none;
+   font-size: 2.5rem; 
+   } 
+.spacer {
+   flex: 1;
+}
+.navBar_nav-items ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+}
+
+.navBar_nav-items li {
+   padding: 0 0.5rem;
+   
+ }
