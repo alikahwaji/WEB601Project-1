@@ -1,11 +1,14 @@
 import React from "react";
+import HamburgerButton from '../NavHamburger/hamburgerButton';
 import './navBar.css';
 import { Link } from "react-router-dom";
 
 const navbar = props => (
     <header className="navBar">
-        <nav className="navBar_navigation">
-            <div></div>
+        <nav className="navBar_navigation">        
+            <div>
+                <HamburgerButton /> 
+            </div>
             <div className="navBar_logo">The logo</div>
             <div className="spacer"/>
             <div className="navBar_nav-items">

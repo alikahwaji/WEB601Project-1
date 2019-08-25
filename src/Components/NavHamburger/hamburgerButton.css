@@ -1,0 +1,22 @@
+.hamburger-button {
+    display: flex; /* if i want to use the divs in the button use flex */
+    flex-direction: column;  /* default is a row i want position below each other  */
+    justify-content: space-around; /*this chooses the lines on ham*/
+    height: 37px;
+    width:40px;
+    background: transparent;    /* sizing the toggle button */
+    border: none;
+    cursor: pointer;   /* the hand hover over hamburger */
+    padding: 0; /*get rid of padding*/
+    box-sizing: border-box;
+}
+
+.hamburger-button:focus {
+  outline:none;  
+}
+ 
+.hamburger-button_line {
+  width: 30px; 
+  height: 3px;
+  background: white;
+}

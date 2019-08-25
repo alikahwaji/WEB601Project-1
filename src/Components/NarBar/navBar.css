@@ -3,38 +3,39 @@
    top: 0;
    left: 0; 
    width:100%;
-   background: pink; 
-   height: 90px;
+   background: rgb(174, 31, 55); 
+   height: 90px;   /* specifies size of nav bar */
 }
 
 .navBar_navigation{
    display: flex;
-   height: 100%;
-   align-items: center;
+   height: 100%;   /*with0ut this the nav is not the same height as the header so logo is not spaced properly */
+   align-items: center; /* all centred vertically */
    padding: 0 1.5rem;
 }
 
 .navBar_nav-items :hover,
 .navBar_nav-items :active{
-   color: #fa923f;
+   color: #edfa3f;
 }
 
 .navBar_logo {
+   margin-left: 1rem; /*distance btwn logo and ham*/
    color: white;
    text-decoration: none;
    font-size: 2.5rem; 
    } 
 .spacer {
-   flex: 1;
+   flex: 1;   /* this pushes the logo and items apart */
 }
 .navBar_nav-items ul {
   list-style: none;
   margin:0;
   padding: 0;
-  display: flex;
+  display: flex; /* nav items now positioned next to each other not in a list format*/
 }
 
 .navBar_nav-items li {
-   padding: 0 0.5rem;
+   padding: 0 0.5rem; /* spaces the li the nave items apart with a gap between them*/
    
  }

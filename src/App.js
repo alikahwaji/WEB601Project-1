@@ -4,13 +4,17 @@ import NavComp from './Components/NarBar/navBar';
 import FooterComp from './Components/Footer/footer';
 import LoginComp from './Components/LoginForm/loginForm';
 import CourseListComp from './Components/courseList';
+import HamburgerComp from './Components/NavHamburger/navHamburger';
+import BackdropComp from './Components/Backdrop/backdrop';
 import CourseComp from './Components/Course/course';
 import ContactComp from './Components/Contact/contact';
 
 function Index() {
   return (
-    <div>
+    <div style={{height: '100%'}}> /* gives hamburger full height */
       <NavComp />
+      <HamburgerComp />
+      <BackdropComp />
       <main style={{marginTop: '64px'}}>
       <h2>Home</h2>
       <p>Apiculture New Zealand</p>
