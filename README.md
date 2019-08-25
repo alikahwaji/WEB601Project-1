@@ -1,5 +1,5 @@
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+# Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
@@ -28,7 +28,7 @@ Follow these steps.
 What you need to use the software and how to install it.
 * npm
 ```sh
-npm install npm@latest -g
+npm install npm@latest -g 
 ```
 
 ### Installation
