@@ -9,9 +9,8 @@ class Course extends React.Component {
                 <img alt= 'ManukaBees' src={require('../../Images/manuka-bees.jpg')}/>                
 
             </div>
-        )
- 
+        ) 
     }
-
 }
+
 export default Course;

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavComp from './Components/NarBar/navBar';
 import FooterComp from './Components/Footer/footer';
 import LoginComp from './Components/LoginForm/loginForm';
-import CourseListComp from './Components/courseList';
+import CourseListComp from './Components/CourseList/courseList';
 import HomeComp from './Components/Home/home';
 
 import HamburgerComp from './Components/NavHamburger/navHamburger';
@@ -55,6 +55,9 @@ function Courses() {
   return(
     <div>
       <NavComp />
+      <br />
+      <br />
+
       <h2>Courses</h2>    
       <CourseListComp />
       <FooterComp />

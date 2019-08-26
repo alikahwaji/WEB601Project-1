@@ -6,13 +6,14 @@ class Home extends React.Component {
         return (
             <div className='home'>
                 <div>
-                    <main style={{marginTop: '64px'}}>
-                   
-                            <img alt= 'ManukaBees' src={require('../../Images/USbee.jpg')}/> 
+                    <main style={{marginTop: '68px'}}>                   
+                            <img alt= 'beekeeper' src={require('../../Images/beekeeper.jpg')}/> 
                     </main> 
-                </div>                               
+                </div> 
+                <div className='title'>                              
                     <h2>Home</h2>
                         <p>Intro into the World of Beekeeping</p> 
+                </div>
             </div>
             
         ) 
