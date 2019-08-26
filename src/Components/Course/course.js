@@ -10,7 +10,7 @@ class Course extends React.Component {
 
             </div>
         )
-
+ 
     }
 
 }

@@ -2,20 +2,34 @@ import React from "react";
 import './loginForm.css';
 
 class Login extends React.Component{
+    state = {
+        username: '',
+        password: '',
+    }
+
 render(){
     return(
-        <div className='login-form'>
-            <h2>Login</h2>      
-                <p style={{'font-size': '50px','backgroundColor': 'pink'}}>And all of my login content</p>
-
+        <div className='login-form'> 
+            <br /><br /><br /> 
+               
             <form>
-                <input type='text'/>
-                <input type='password'/> 
-                <input type='submit'/>          
-
-
+            <h2>Login form</h2>    
+                <input 
+                name='username'
+                placeholder='Username'
+                />
+                <br />
+                <input 
+                type='password'
+                placeholder='Password'
+                /> 
+                <br />
+                <input type='submit'/>       
             </form>
-        </div>
+
+            <br /><br /><br /> 
+           
+        </div>        
     )
 } 
 }

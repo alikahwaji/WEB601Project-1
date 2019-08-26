@@ -12,6 +12,7 @@
    height: 100%;   /*with0ut this the nav is not the same height as the header so logo is not spaced properly */
    align-items: center; /* all centred vertically */
    padding: 0 1.5rem;
+ 
 }
 
 .navBar_nav-items :hover,
@@ -32,7 +33,8 @@
   list-style: none;
   margin:0;
   padding: 0;
-  display: flex; /* nav items now positioned next to each other not in a list format*/
+  display: flex; /* nav items now positioned next to each other not in a list format*/  
+
 }
 
 .navBar_nav-items li {

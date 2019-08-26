@@ -4,6 +4,8 @@ import NavComp from './Components/NarBar/navBar';
 import FooterComp from './Components/Footer/footer';
 import LoginComp from './Components/LoginForm/loginForm';
 import CourseListComp from './Components/courseList';
+import HomeComp from './Components/Home/home';
+
 import HamburgerComp from './Components/NavHamburger/navHamburger';
 import BackdropComp from './Components/Backdrop/backdrop';
 import CourseComp from './Components/Course/course';
@@ -11,16 +13,12 @@ import ContactComp from './Components/Contact/contact';
 
 function Index() {
   return (
-    <div style={{height: '100%'}}> /* gives hamburger full height */
+    <div style={{height: '100%'}}> 
       <NavComp />
-      <HamburgerComp />
-      <BackdropComp />
-      <main style={{marginTop: '64px'}}>
-      <h2>Home</h2>
-      <p>Apiculture New Zealand</p>
-      </main>     
-      
-      <img alt="Bee img" src=" "/>
+      <br />
+      <HomeComp />
+        
+     
       <FooterComp />
     </div>
   );
@@ -30,7 +28,9 @@ function About() {
   return (
     <div>
       <NavComp />
-      <h2>About</h2>
+      <br /><br /><br />
+      <p style={{'font-size': '50px','backgroundColor': 'pink'}}>And all of my "ABOUT"content</p>
+      <h2>The BeeCourse</h2>
       <FooterComp />
 
     </div>
@@ -41,6 +41,9 @@ function LoginForm() {
   return(
     <div>
       <NavComp />
+      <br />
+      <br />
+      <br />
       <LoginComp />
       <FooterComp />
 
@@ -65,6 +68,7 @@ function Contact() {
     <div>
       <NavComp />
       <h2>Contact</h2>
+      <ContactComp />
       <FooterComp />
 
     </div>

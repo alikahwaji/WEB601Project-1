@@ -7,7 +7,8 @@
     left: 0;
     width: 70%;
     max-width: 400px;
-    z-index: 200px; /*so this is above the backdrop*/
+    z-index: 200; /*so this is above the backdrop brings up backdrop white*/
+    
 }
 
 .navHamburger ul {
@@ -15,12 +16,18 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /*space objects */
+    color: #a10d0d;  /*the following 3 aint doing anything trying to change  */
+    text-decoration: none;
+    font-size: 1.2rem;
 
 }
 
-.navHamburger link {
-    color: orangered;
-    text-decoration: none;
+.navHamburger li {
+    margin: 0.5rem 0;    
+}
 
+.navHamburger :hover,
+.navHamburger :active{
+   color: #edfa3f;   
 }
