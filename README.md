@@ -12,7 +12,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-Whangarae Bees website is a working progress 
+BeeCourse will be a website for people who are interested in doing bee courses. 
+There will be a free online bee course available but! an account will open the user
+up to being able to take other bee courses and enrolling onto practical hands on workshops.
 
 ### Built With
 * [React](https://create-react-app.dev/)
