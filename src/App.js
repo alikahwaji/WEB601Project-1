@@ -34,7 +34,7 @@ function About() {
       <FooterComp />
 
     </div>
-  );
+  );    
 }
 
 function LoginForm() {
